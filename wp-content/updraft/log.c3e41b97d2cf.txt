@@ -1,0 +1,761 @@
+0000.000 (0) Opened log file at time: Wed, 02 Oct 2024 12:48:38 +0000 on https://www.f020.hu/washtag
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.4 WP: 6.6.2 PHP: 8.2.22 (apache2handler, Linux php82 6.5.0-44-generic #44~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Jun 18 14:36:16 UTC 2 x86_64) MySQL: 10.5.22-MariaDB-1:10.5.22+maria~ubu2004-log (max packet size=67108864) WPLANG: hu_HU Server: Apache safe_mode: 0 max_execution_time: 600 memory_limit: 512M (used: 72.2M | 74M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: Y LANG: en_US.UTF-8 ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 4400801.4 MB
+0000.005 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.008 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.009 (0) Set semaphore last lock (fd) time to 2024-10-02 12:48:38
+0000.010 (0) Semaphore lock (fd) complete
+0000.013 (0) Backup run: resumption=0, nonce=c3e41b97d2cf, file_nonce=c3e41b97d2cf begun at=1727873318 (0s ago), job type=backup
+0000.014 (0) Scheduling a resumption (1) after 300 seconds (1727873618) in case this run gets aborted
+0000.031 (0) PHP event: code E_WARNING: file_exists(): open_basedir restriction in effect. File(/proc/user_beancounters) is not within the allowed path(s): (/nfsmnt/:/data/:/usr/share/php:/usr/bin/:/apachetmp:/tmp/:/var/tmp/:/dev/urandom:/usr/lib/x86_64-linux-gnu/ImageMagick-6.9.11/bin-q16/:/usr/local/bin/:/etc/ssl/certs/ca-certificates.crt:/usr/lib/php:/usr/php82/bin/) (line 190, wp-content/plugins/updraftplus/backup.php)
+0000.032 (0) Checking if we have a zip executable available
+0000.032 (0) Testing: /usr/bin/zip
+0000.048 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.049 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.050 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.050 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.051 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.115 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.117 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.138 (0) Working binary zip found: /usr/bin/zip
+0000.140 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.141 (0) Creation of backups of directories: beginning
+0000.145 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.147 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 419, wp-content/plugins/updraftplus/class-updraftplus.php)
+0001.790 (0) Total entities for the zip file: 2833 directories, 16394 files (0 skipped as non-modified), 208.3 MB
+0001.799 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.804 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.810 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.814 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.819 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.823 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.827 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.831 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.835 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.838 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.839 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.9 MB, 16394 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0002.724 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: size is now: 7.20 MB
+0002.729 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 1100 files added (on-disk size: 7357.1 KB)
+0002.733 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 1200 files added (on-disk size: 7357.1 KB)
+0002.737 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 1300 files added (on-disk size: 7357.1 KB)
+0002.741 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 1400 files added (on-disk size: 7357.1 KB)
+0002.745 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 1500 files added (on-disk size: 7357.1 KB)
+0002.749 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 1600 files added (on-disk size: 7357.1 KB)
+0002.753 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 1700 files added (on-disk size: 7357.1 KB)
+0002.757 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 1800 files added (on-disk size: 7357.1 KB)
+0002.762 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 1900 files added (on-disk size: 7357.1 KB)
+0002.766 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 2000 files added (on-disk size: 7357.1 KB)
+0002.767 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.3 MB, 16394 files batched, 1001 (2002) added so far); re-opening (prior size: 7357.1 KB)
+0003.094 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: size is now: 9.20 MB
+0003.108 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 2100 files added (on-disk size: 9410.7 KB)
+0003.115 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 2200 files added (on-disk size: 9410.7 KB)
+0003.121 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 2300 files added (on-disk size: 9410.7 KB)
+0003.127 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 2400 files added (on-disk size: 9410.7 KB)
+0003.131 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 2500 files added (on-disk size: 9410.7 KB)
+0003.136 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 2600 files added (on-disk size: 9410.7 KB)
+0003.140 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 2700 files added (on-disk size: 9410.7 KB)
+0003.144 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 2800 files added (on-disk size: 9410.7 KB)
+0003.148 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 2900 files added (on-disk size: 9410.7 KB)
+0003.151 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 3000 files added (on-disk size: 9410.7 KB)
+0003.153 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6 MB, 16394 files batched, 1001 (3003) added so far); re-opening (prior size: 9410.7 KB)
+0003.463 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 3100 files added (on-disk size: 10953.9 KB)
+0003.471 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 3200 files added (on-disk size: 10953.9 KB)
+0003.478 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 3300 files added (on-disk size: 10953.9 KB)
+0003.484 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 3400 files added (on-disk size: 10953.9 KB)
+0003.489 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 3500 files added (on-disk size: 10953.9 KB)
+0003.493 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 3600 files added (on-disk size: 10953.9 KB)
+0003.497 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 3700 files added (on-disk size: 10953.9 KB)
+0003.501 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 3800 files added (on-disk size: 10953.9 KB)
+0003.510 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 3900 files added (on-disk size: 10953.9 KB)
+0003.519 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 4000 files added (on-disk size: 10953.9 KB)
+0003.521 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.1 MB, 16394 files batched, 1001 (4004) added so far); re-opening (prior size: 10953.9 KB)
+0003.844 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 4100 files added (on-disk size: 12690.9 KB)
+0003.853 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 4200 files added (on-disk size: 12690.9 KB)
+0003.861 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 4300 files added (on-disk size: 12690.9 KB)
+0003.867 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 4400 files added (on-disk size: 12690.9 KB)
+0003.872 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 4500 files added (on-disk size: 12690.9 KB)
+0003.877 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 4600 files added (on-disk size: 12690.9 KB)
+0003.881 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 4700 files added (on-disk size: 12690.9 KB)
+0003.884 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 4800 files added (on-disk size: 12690.9 KB)
+0003.887 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 4900 files added (on-disk size: 12690.9 KB)
+0003.890 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 5000 files added (on-disk size: 12690.9 KB)
+0003.891 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.2 MB, 16394 files batched, 1001 (5005) added so far); re-opening (prior size: 12690.9 KB)
+0004.210 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 5100 files added (on-disk size: 14420.7 KB)
+0004.218 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 5200 files added (on-disk size: 14420.7 KB)
+0004.225 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 5300 files added (on-disk size: 14420.7 KB)
+0004.230 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 5400 files added (on-disk size: 14420.7 KB)
+0004.236 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 5500 files added (on-disk size: 14420.7 KB)
+0004.241 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 5600 files added (on-disk size: 14420.7 KB)
+0004.246 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 5700 files added (on-disk size: 14420.7 KB)
+0004.249 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 5800 files added (on-disk size: 14420.7 KB)
+0004.253 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 5900 files added (on-disk size: 14420.7 KB)
+0004.256 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 6000 files added (on-disk size: 14420.7 KB)
+0004.257 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.3 MB, 16394 files batched, 1001 (6006) added so far); re-opening (prior size: 14420.7 KB)
+0004.691 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 6100 files added (on-disk size: 16910 KB)
+0004.701 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 6200 files added (on-disk size: 16910 KB)
+0004.708 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 6300 files added (on-disk size: 16910 KB)
+0004.710 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (26.3 MB, 16394 files batched, 311 (6317) added so far); re-opening (prior size: 16910 KB)
+0005.746 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: size is now: 21.70 MB
+0005.750 (0) A useful amount of data was added after this amount of zip processing: 1.4 s (normalised: 1.4 s, rate: 18879.2 KB/s)
+0005.752 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.42921090126, normalised_time=1.35599133164, max_time=5.75032186508, data points known=1, old_max_bytes=26214400, new_max_bytes=115993661)
+0005.761 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 6400 files added (on-disk size: 22199.5 KB)
+0005.769 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 6500 files added (on-disk size: 22199.5 KB)
+0005.775 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 6600 files added (on-disk size: 22199.5 KB)
+0005.781 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 6700 files added (on-disk size: 22199.5 KB)
+0005.786 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 6800 files added (on-disk size: 22199.5 KB)
+0005.790 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 6900 files added (on-disk size: 22199.5 KB)
+0005.794 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 7000 files added (on-disk size: 22199.5 KB)
+0005.798 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 7100 files added (on-disk size: 22199.5 KB)
+0005.802 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 7200 files added (on-disk size: 22199.5 KB)
+0005.810 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 7300 files added (on-disk size: 22199.5 KB)
+0005.811 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (24.9 MB, 16394 files batched, 1001 (7318) added so far); re-opening (prior size: 22199.5 KB)
+0007.065 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: size is now: 30.70 MB
+0007.077 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 7400 files added (on-disk size: 31391.3 KB)
+0007.085 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 7500 files added (on-disk size: 31391.3 KB)
+0007.093 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 7600 files added (on-disk size: 31391.3 KB)
+0007.098 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 7700 files added (on-disk size: 31391.3 KB)
+0007.103 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 7800 files added (on-disk size: 31391.3 KB)
+0007.108 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 7900 files added (on-disk size: 31391.3 KB)
+0007.112 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 8000 files added (on-disk size: 31391.3 KB)
+0007.115 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 8100 files added (on-disk size: 31391.3 KB)
+0007.119 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 8200 files added (on-disk size: 31391.3 KB)
+0007.122 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 8300 files added (on-disk size: 31391.3 KB)
+0007.123 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (15 MB, 16394 files batched, 1001 (8319) added so far); re-opening (prior size: 31391.3 KB)
+0008.144 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 8400 files added (on-disk size: 34974 KB)
+0008.153 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 8500 files added (on-disk size: 34974 KB)
+0008.163 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 8600 files added (on-disk size: 34974 KB)
+0008.171 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 8700 files added (on-disk size: 34974 KB)
+0008.178 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 8800 files added (on-disk size: 34974 KB)
+0008.184 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 8900 files added (on-disk size: 34974 KB)
+0008.193 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 9000 files added (on-disk size: 34974 KB)
+0008.198 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 9100 files added (on-disk size: 34974 KB)
+0008.201 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 9200 files added (on-disk size: 34974 KB)
+0008.205 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 9300 files added (on-disk size: 34974 KB)
+0008.207 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.5 MB, 16394 files batched, 1001 (9320) added so far); re-opening (prior size: 34974 KB)
+0008.880 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 9400 files added (on-disk size: 37794.9 KB)
+0008.897 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 9500 files added (on-disk size: 37794.9 KB)
+0008.909 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 9600 files added (on-disk size: 37794.9 KB)
+0008.920 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 9700 files added (on-disk size: 37794.9 KB)
+0008.933 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 9800 files added (on-disk size: 37794.9 KB)
+0008.947 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 9900 files added (on-disk size: 37794.9 KB)
+0008.959 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 10000 files added (on-disk size: 37794.9 KB)
+0008.973 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 10100 files added (on-disk size: 37794.9 KB)
+0008.985 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 10200 files added (on-disk size: 37794.9 KB)
+0009.001 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 10300 files added (on-disk size: 37794.9 KB)
+0009.007 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7 MB, 16394 files batched, 1001 (10321) added so far); re-opening (prior size: 37794.9 KB)
+0009.458 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 10400 files added (on-disk size: 39822.8 KB)
+0009.476 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 10500 files added (on-disk size: 39822.8 KB)
+0009.486 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 10600 files added (on-disk size: 39822.8 KB)
+0009.497 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 10700 files added (on-disk size: 39822.8 KB)
+0009.514 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 10800 files added (on-disk size: 39822.8 KB)
+0009.536 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 10900 files added (on-disk size: 39822.8 KB)
+0009.557 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 11000 files added (on-disk size: 39822.8 KB)
+0009.574 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 11100 files added (on-disk size: 39822.8 KB)
+0009.588 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 11200 files added (on-disk size: 39822.8 KB)
+0009.606 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 11300 files added (on-disk size: 39822.8 KB)
+0009.611 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.6 MB, 16394 files batched, 1001 (11322) added so far); re-opening (prior size: 39822.8 KB)
+0010.344 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 11400 files added (on-disk size: 43850.2 KB)
+0010.365 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 11500 files added (on-disk size: 43850.2 KB)
+0010.375 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 11600 files added (on-disk size: 43850.2 KB)
+0010.385 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 11700 files added (on-disk size: 43850.2 KB)
+0010.394 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 11800 files added (on-disk size: 43850.2 KB)
+0010.405 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 11900 files added (on-disk size: 43850.2 KB)
+0010.415 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 12000 files added (on-disk size: 43850.2 KB)
+0010.427 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 12100 files added (on-disk size: 43850.2 KB)
+0010.440 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 12200 files added (on-disk size: 43850.2 KB)
+0010.453 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 12300 files added (on-disk size: 43850.2 KB)
+0010.457 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (25.8 MB, 16394 files batched, 1001 (12323) added so far); re-opening (prior size: 43850.2 KB)
+0011.827 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 12400 files added (on-disk size: 52026.3 KB)
+0011.858 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 12500 files added (on-disk size: 52026.3 KB)
+0011.877 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 12600 files added (on-disk size: 52026.3 KB)
+0011.896 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 12700 files added (on-disk size: 52026.3 KB)
+0011.916 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 12800 files added (on-disk size: 52026.3 KB)
+0011.936 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 12900 files added (on-disk size: 52026.3 KB)
+0011.955 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 13000 files added (on-disk size: 52026.3 KB)
+0011.975 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 13100 files added (on-disk size: 52026.3 KB)
+0012.026 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 13200 files added (on-disk size: 52026.3 KB)
+0012.052 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 13300 files added (on-disk size: 52026.3 KB)
+0012.058 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.9 MB, 16394 files batched, 1001 (13324) added so far); re-opening (prior size: 52026.3 KB)
+0012.802 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 13400 files added (on-disk size: 53743.1 KB)
+0012.820 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 13500 files added (on-disk size: 53743.1 KB)
+0012.835 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 13600 files added (on-disk size: 53743.1 KB)
+0012.846 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 13700 files added (on-disk size: 53743.1 KB)
+0012.858 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 13800 files added (on-disk size: 53743.1 KB)
+0012.871 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 13900 files added (on-disk size: 53743.1 KB)
+0012.885 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 14000 files added (on-disk size: 53743.1 KB)
+0012.898 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 14100 files added (on-disk size: 53743.1 KB)
+0012.914 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 14200 files added (on-disk size: 53743.1 KB)
+0012.929 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 14300 files added (on-disk size: 53743.1 KB)
+0012.933 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (15.4 MB, 16394 files batched, 1001 (14325) added so far); re-opening (prior size: 53743.1 KB)
+0014.155 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 14400 files added (on-disk size: 62014.8 KB)
+0014.173 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 14500 files added (on-disk size: 62014.8 KB)
+0014.190 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 14600 files added (on-disk size: 62014.8 KB)
+0014.204 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 14700 files added (on-disk size: 62014.8 KB)
+0014.218 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 14800 files added (on-disk size: 62014.8 KB)
+0014.232 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 14900 files added (on-disk size: 62014.8 KB)
+0014.248 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 15000 files added (on-disk size: 62014.8 KB)
+0014.266 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 15100 files added (on-disk size: 62014.8 KB)
+0014.281 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 15200 files added (on-disk size: 62014.8 KB)
+0014.298 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 15300 files added (on-disk size: 62014.8 KB)
+0014.303 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6.5 MB, 16394 files batched, 1001 (15326) added so far); re-opening (prior size: 62014.8 KB)
+0014.998 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 15400 files added (on-disk size: 63913.7 KB)
+0015.024 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 15500 files added (on-disk size: 63913.7 KB)
+0015.049 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 15600 files added (on-disk size: 63913.7 KB)
+0015.065 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 15700 files added (on-disk size: 63913.7 KB)
+0015.092 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 15800 files added (on-disk size: 63913.7 KB)
+0015.123 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 15900 files added (on-disk size: 63913.7 KB)
+0015.141 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 16000 files added (on-disk size: 63913.7 KB)
+0015.154 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 16100 files added (on-disk size: 63913.7 KB)
+0015.167 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 16200 files added (on-disk size: 63913.7 KB)
+0015.181 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.tmp: 16300 files added (on-disk size: 63913.7 KB)
+0015.184 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.9 MB, 16394 files batched, 1001 (16327) added so far); re-opening (prior size: 63913.7 KB)
+0016.307 (0) Creating zip file manifest (backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.list-temp.tmp)
+0016.436 (0) Successfully created zip file manifest (size: 1641873)
+0017.054 (0) Created plugins zip (0) - 66319 KB in 16.9 s (3923.1 KB/s) (sha1: aed0bcc3a26a52f5398e3f61135ed3cf0597b830, sha256: 3d5c4f915e0a04e39f7187932d6b30513418bf3eadd5f7b0c9662953b4089138)
+0017.067 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0017.068 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-695ed4708aacd4830e84d9c9dea6da66)
+0019.315 (0) Google Drive: quota usage: used=208.1 MB, total=15360 MB, available=15151.9 MB
+0019.317 (0) Google Drive: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip: Attempting to upload to Google Drive (into folder id: 1wexCis5Oq3VroDfx94hbCy197lijsCrd)
+0020.436 (0) Googledrive chunked upload: 1.5 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 78.1 / 98)
+0020.842 (0) Googledrive chunked upload: 4.6 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 78.1 / 98)
+0021.307 (0) Googledrive chunked upload: 10.8 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 78.1 / 98)
+0021.762 (0) Googledrive chunked upload: 23.2 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 78.1 / 98)
+0022.326 (0) Googledrive chunked upload: 47.9 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 78.1 / 98)
+0023.222 (0) Googledrive chunked upload: 97.3 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 78.1 / 98)
+0025.424 (0) Googledrive chunked upload: 100 % uploaded (66060288)
+0025.429 (0) Google Drive: OK: Archive backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip uploaded in 6.11 seconds
+0025.431 (0) Recording as successfully uploaded: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip
+0025.437 (0) Deleting local file: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip: OK
+0025.446 (0) Beginning creation of dump of themes (split every: 400 MB)
+0025.449 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 419, wp-content/plugins/updraftplus/class-updraftplus.php)
+0025.457 (0) Total entities for the zip file: 11 directories, 55 files (0 skipped as non-modified), 0.4 MB
+0025.557 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-themes.zip.tmp: size is now: 0.20 MB
+0025.564 (0) Creating zip file manifest (backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-themes.zip.list-temp.tmp)
+0025.567 (0) Successfully created zip file manifest (size: 3315)
+0025.580 (0) Created themes zip (0) - 197.1 KB in 0.1 s (1533.9 KB/s) (sha1: e3ff3f3e8391bb6b576422f032dd2b3756ddf31d, sha256: d4144b4168f922749c264d1677205b26e43c65117cabefc4ab7b0181d8c14469)
+0025.585 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0025.587 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-695ed4708aacd4830e84d9c9dea6da66)
+0026.156 (0) Google Drive: quota usage: used=272.8 MB, total=15360 MB, available=15087.2 MB
+0026.157 (0) Google Drive: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-themes.zip: Attempting to upload to Google Drive (into folder id: 1wexCis5Oq3VroDfx94hbCy197lijsCrd)
+0028.867 (0) Googledrive chunked upload: 100 % uploaded
+0028.873 (0) Google Drive: OK: Archive backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-themes.zip uploaded in 2.71 seconds
+0028.875 (0) Recording as successfully uploaded: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-themes.zip
+0028.877 (0) Deleting local file: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-themes.zip: OK
+0028.881 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0028.882 (0) Looking for candidates to backup in: /data/8/f/8f244847-2be5-4460-9d79-f3804a13c8ad/f020.hu/web/washtag/wp-content/uploads
+0028.883 (0) finding files: 2024: adding to list (1)
+0028.884 (0) finding files: wc-logs: adding to list (2)
+0028.884 (0) finding files: woocommerce-placeholder-300x225.png: adding to list (3)
+0028.885 (0) finding files: essential-addons-elementor: adding to list (4)
+0028.886 (0) finding files: woocommerce-placeholder-100x100.png: adding to list (5)
+0028.887 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (6)
+0028.887 (0) finding files: wp-file-manager-pro: adding to list (7)
+0028.888 (0) finding files: elementor: adding to list (8)
+0028.889 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (9)
+0028.890 (0) finding files: woocommerce-placeholder-200x200.png: adding to list (10)
+0028.890 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (11)
+0028.891 (0) finding files: woocommerce-placeholder-600x450.png: adding to list (12)
+0028.891 (0) finding files: fonts: adding to list (13)
+0028.892 (0) finding files: woocommerce_uploads: adding to list (14)
+0028.893 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (15)
+0028.893 (0) finding files: wc_szamlazz: adding to list (16)
+0028.894 (0) finding files: woocommerce-placeholder.png: adding to list (17)
+0028.894 (0) finding files: woocommerce-placeholder-600x600.png: adding to list (18)
+0028.895 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0028.896 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 419, wp-content/plugins/updraftplus/class-updraftplus.php)
+0028.921 (0) Total entities for the zip file: 13 directories, 477 files (0 skipped as non-modified), 21.4 MB
+0028.924 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0028.927 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0028.930 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0028.933 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0029.632 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-uploads.zip.tmp: size is now: 20.50 MB
+0029.645 (0) Creating zip file manifest (backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-uploads.zip.list-temp.tmp)
+0029.657 (0) Successfully created zip file manifest (size: 32783)
+0029.854 (0) Created uploads zip (0) - 20979 KB in 1 s (21935.4 KB/s) (sha1: 87382ade0768b20eaff2c2fd32e8b63ffa0c08fa, sha256: c7299c6f5da35aa517b3e0c5d49271898855ce0115ce8cee0fdda36de198e5c3)
+0029.859 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0029.861 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-695ed4708aacd4830e84d9c9dea6da66)
+0030.382 (0) Google Drive: quota usage: used=273 MB, total=15360 MB, available=15087 MB
+0030.383 (0) Google Drive: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-uploads.zip: Attempting to upload to Google Drive (into folder id: 1wexCis5Oq3VroDfx94hbCy197lijsCrd)
+0031.440 (0) Googledrive chunked upload: 4.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 75 / 96)
+0031.880 (0) Googledrive chunked upload: 14.6 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 75 / 96)
+0032.342 (0) Googledrive chunked upload: 34.2 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 75 / 96)
+0033.005 (0) Googledrive chunked upload: 73.2 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 75 / 96)
+0034.782 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0034.788 (0) Google Drive: OK: Archive backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-uploads.zip uploaded in 4.4 seconds
+0034.790 (0) Recording as successfully uploaded: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-uploads.zip
+0034.794 (0) Deleting local file: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-uploads.zip: OK
+0034.799 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0034.802 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 419, wp-content/plugins/updraftplus/class-updraftplus.php)
+0034.804 (0) Total entities for the zip file: 1 directories, 1 files (0 skipped as non-modified), 0 MB
+0034.872 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-mu-plugins.zip.tmp: size is now: 0.00 MB
+0034.877 (0) Creating zip file manifest (backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-mu-plugins.zip.list-temp.tmp)
+0034.878 (0) Successfully created zip file manifest (size: 71)
+0034.884 (0) Created mu-plugins zip (0) - 1.9 KB in 0.1 s (23.5 KB/s) (sha1: 744248f7f0282e66df36be0898cd6f3306528563, sha256: 15f72edca927618c0ec34441144bce81d909d3124a47751b64f341c7d62f88f8)
+0034.887 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0034.888 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-695ed4708aacd4830e84d9c9dea6da66)
+0035.370 (0) Google Drive: quota usage: used=293.5 MB, total=15360 MB, available=15066.5 MB
+0035.372 (0) Google Drive: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-mu-plugins.zip: Attempting to upload to Google Drive (into folder id: 1wexCis5Oq3VroDfx94hbCy197lijsCrd)
+0037.519 (0) Googledrive chunked upload: 100 % uploaded
+0037.525 (0) Google Drive: OK: Archive backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-mu-plugins.zip uploaded in 2.15 seconds
+0037.527 (0) Recording as successfully uploaded: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-mu-plugins.zip
+0037.530 (0) Deleting local file: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-mu-plugins.zip: OK
+0037.538 (0) Beginning backup of other directories found in the content directory (index: 0)
+0037.540 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0037.541 (0) Looking for candidates to backup in: /data/8/f/8f244847-2be5-4460-9d79-f3804a13c8ad/f020.hu/web/washtag/wp-content
+0037.542 (0) finding files: uploads: skipping: this is the uploads directory
+0037.543 (0) finding files: updraft: skipping: this is the updraft directory
+0037.544 (0) finding files: plugins: skipping: this is the plugins directory
+0037.545 (0) finding files: languages: adding to list (1)
+0037.546 (0) finding files: upgrade: skipping: excluded by options
+0037.547 (0) finding files: index.php: adding to list (2)
+0037.548 (0) finding files: upgrade-temp-backup: adding to list (3)
+0037.549 (0) finding files: mu-plugins: skipping: this is the mu-plugins directory
+0037.550 (0) finding files: themes: skipping: this is the themes directory
+0037.553 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 419, wp-content/plugins/updraftplus/class-updraftplus.php)
+0037.606 (0) Total entities for the zip file: 4 directories, 1665 files (0 skipped as non-modified), 34.3 MB
+0037.610 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0037.612 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0037.616 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0037.619 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0037.622 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-others.zip.tmp: 500 files added (on-disk size: 0 KB)
+0037.625 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-others.zip.tmp: 600 files added (on-disk size: 0 KB)
+0037.628 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-others.zip.tmp: 700 files added (on-disk size: 0 KB)
+0037.631 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-others.zip.tmp: 800 files added (on-disk size: 0 KB)
+0037.634 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-others.zip.tmp: 900 files added (on-disk size: 0 KB)
+0037.637 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-others.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0037.638 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.3 MB, 1665 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0038.428 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-others.zip.tmp: size is now: 4.10 MB
+0038.435 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-others.zip.tmp: 1100 files added (on-disk size: 4235.2 KB)
+0038.438 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-others.zip.tmp: 1200 files added (on-disk size: 4235.2 KB)
+0038.442 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-others.zip.tmp: 1300 files added (on-disk size: 4235.2 KB)
+0038.445 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-others.zip.tmp: 1400 files added (on-disk size: 4235.2 KB)
+0038.448 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-others.zip.tmp: 1500 files added (on-disk size: 4235.2 KB)
+0038.451 (0) Zip: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-others.zip.tmp: 1600 files added (on-disk size: 4235.2 KB)
+0039.447 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-others.zip.tmp: size is now: 10.20 MB
+0039.474 (0) Creating zip file manifest (backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-others.zip.list-temp.tmp)
+0039.501 (0) Successfully created zip file manifest (size: 131035)
+0039.615 (0) Created others zip (0) - 10490.4 KB in 2.1 s (5092.7 KB/s) (sha1: 822b00a3f7dd2884d276adf4fa3ab5c864b70dce, sha256: 2716bdfd1c15e9372dc356f7d74fee65d4395d2814f62494b85f99538723eb4c)
+0039.619 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0039.620 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-695ed4708aacd4830e84d9c9dea6da66)
+0040.129 (0) Google Drive: quota usage: used=293.5 MB, total=15360 MB, available=15066.5 MB
+0040.130 (0) Google Drive: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-others.zip: Attempting to upload to Google Drive (into folder id: 1wexCis5Oq3VroDfx94hbCy197lijsCrd)
+0041.242 (0) Googledrive chunked upload: 9.8 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 75.2 / 98)
+0041.655 (0) Googledrive chunked upload: 29.3 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 75.2 / 98)
+0042.101 (0) Googledrive chunked upload: 68.3 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 75.2 / 98)
+0044.089 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0044.094 (0) Google Drive: OK: Archive backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-others.zip uploaded in 3.96 seconds
+0044.095 (0) Recording as successfully uploaded: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-others.zip
+0044.099 (0) Deleting local file: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-others.zip: OK
+0044.110 (0) Saving backup status to database (elements: 10)
+0044.114 (0) Beginning creation of database dump (WordPress DB)
+0044.116 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0044.121 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0044.156 (0) Output: /*!999999\- enable the sandbox mode */ \n/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `pfltrz_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!4 (truncated - 1515 bytes total)
+0044.157 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0044.171 (0) Table pfltrz_options: Total expected rows (via COUNT): 807
+0044.281 (0) Table pfltrz_options: Rows added in this batch (next record: 12393): 803 (uncompressed bytes in this segment=3347345) in 0.11 seconds
+0044.286 (0) Table pfltrz_options: finishing file(s) (2, 378.2 KB)
+0044.290 (0) Table pfltrz_users: Total expected rows (via COUNT): 5
+0044.290 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.293 (0) Table pfltrz_users: Rows added in this batch (next record: 8): 5 (uncompressed bytes in this segment=1970) in 0.00 seconds
+0044.297 (0) Table pfltrz_users: finishing file(s) (2, 0.9 KB)
+0044.302 (0) Table pfltrz_usermeta: Total expected rows (via COUNT): 228
+0044.302 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.306 (0) Table pfltrz_usermeta: Rows added in this batch (next record: 398): 228 (uncompressed bytes in this segment=20690) in 0.01 seconds
+0044.310 (0) Table pfltrz_usermeta: finishing file(s) (2, 6.4 KB)
+0044.315 (0) Table pfltrz_actionscheduler_actions: Total expected rows (via COUNT): 385
+0044.316 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.328 (0) Table pfltrz_actionscheduler_actions: Rows added in this batch (next record: 394): 385 (uncompressed bytes in this segment=140756) in 0.02 seconds
+0044.334 (0) Table pfltrz_actionscheduler_actions: finishing file(s) (2, 10.6 KB)
+0044.338 (0) Table pfltrz_actionscheduler_claims: Total expected rows (via COUNT): 0
+0044.341 (0) Table pfltrz_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=650) in 0.00 seconds
+0044.347 (0) Table pfltrz_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0044.353 (0) Table pfltrz_actionscheduler_groups: Total expected rows (via COUNT): 7
+0044.354 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.357 (0) Table pfltrz_actionscheduler_groups: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=844) in 0.01 seconds
+0044.363 (0) Table pfltrz_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0044.369 (0) Table pfltrz_actionscheduler_logs: Total expected rows (via COUNT): 1151
+0044.391 (0) Table pfltrz_actionscheduler_logs: Rows added in this batch (next record: 1151): 1151 (uncompressed bytes in this segment=116681) in 0.02 seconds
+0044.397 (0) Table pfltrz_actionscheduler_logs: finishing file(s) (2, 11.7 KB)
+0044.409 (0) Table pfltrz_commentmeta: Total expected rows (via COUNT): 0
+0044.411 (0) Table pfltrz_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.01 seconds
+0044.418 (0) Table pfltrz_commentmeta: finishing file(s) (2, 0.4 KB)
+0044.423 (0) Table pfltrz_comments: Total expected rows (via COUNT): 10
+0044.424 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.427 (0) Table pfltrz_comments: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=4055) in 0.00 seconds
+0044.431 (0) Table pfltrz_comments: finishing file(s) (2, 1.1 KB)
+0044.436 (0) Table pfltrz_e_notes: Total expected rows (via COUNT): 0
+0044.439 (0) Table pfltrz_e_notes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1909) in 0.00 seconds
+0044.445 (0) Table pfltrz_e_notes: finishing file(s) (2, 0.7 KB)
+0044.449 (0) Table pfltrz_e_notes_users_relations: Total expected rows (via COUNT): 0
+0044.450 (0) Table pfltrz_e_notes_users_relations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=876) in 0.00 seconds
+0044.454 (0) Table pfltrz_e_notes_users_relations: finishing file(s) (2, 0.4 KB)
+0044.458 (0) Table pfltrz_links: Total expected rows (via COUNT): 0
+0044.459 (0) Table pfltrz_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1051) in 0.00 seconds
+0044.463 (0) Table pfltrz_links: finishing file(s) (2, 0.5 KB)
+0044.465 (0) Table pfltrz_postmeta: Total expected rows (approximate): 12952
+0049.403 (0) Table pfltrz_postmeta: binary mysqldump finished (writes: 151, bytes 118989353, return code 0) in 4.94 seconds
+0049.406 (0) Table pfltrz_postmeta: finishing file(s) (1, 7777.2 KB)
+0049.606 (0) Table pfltrz_posts: Total expected rows (approximate): 2439
+0051.575 (0) Table pfltrz_posts: Rows added in this batch (next record: 2475): 2204 (uncompressed bytes in this segment=50822951) in 2.17 seconds
+0051.580 (0) Table pfltrz_posts: finishing file(s) (2, 11286.6 KB)
+0051.585 (0) Table pfltrz_term_relationships: Total expected rows (approximate): 160
+0051.588 (0) Table pfltrz_term_relationships: Rows added in this batch (next record: 100000): 151 (uncompressed bytes in this segment=3000) in 0.00 seconds
+0051.592 (0) Table pfltrz_term_relationships: finishing file(s) (2, 0.8 KB)
+0051.597 (0) Table pfltrz_term_taxonomy: Total expected rows (via COUNT): 50
+0051.598 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0051.600 (0) Table pfltrz_term_taxonomy: Rows added in this batch (next record: 51): 50 (uncompressed bytes in this segment=3234) in 0.01 seconds
+0051.605 (0) Table pfltrz_term_taxonomy: finishing file(s) (2, 1.1 KB)
+0051.610 (0) Table pfltrz_termmeta: Total expected rows (via COUNT): 32
+0051.611 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0051.614 (0) Table pfltrz_termmeta: Rows added in this batch (next record: 33): 32 (uncompressed bytes in this segment=1905) in 0.01 seconds
+0051.619 (0) Table pfltrz_termmeta: finishing file(s) (2, 0.6 KB)
+0051.622 (0) Table pfltrz_terms: Total expected rows (via COUNT): 50
+0051.623 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0051.626 (0) Table pfltrz_terms: Rows added in this batch (next record: 51): 50 (uncompressed bytes in this segment=2978) in 0.00 seconds
+0051.630 (0) Table pfltrz_terms: finishing file(s) (2, 1.1 KB)
+0051.635 (0) Table pfltrz_wc_category_lookup: Total expected rows (approximate): 2
+0051.638 (0) Table pfltrz_wc_category_lookup: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=628) in 0.00 seconds
+0051.642 (0) Table pfltrz_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0051.647 (0) Table pfltrz_wc_product_meta_lookup: Total expected rows (via COUNT): 7
+0051.648 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0051.651 (0) Table pfltrz_wc_product_meta_lookup: Rows added in this batch (next record: 2272): 7 (uncompressed bytes in this segment=2082) in 0.01 seconds
+0051.656 (0) Table pfltrz_wc_product_meta_lookup: finishing file(s) (2, 0.7 KB)
+0051.662 (0) Table pfltrz_wc_reserved_stock: Total expected rows (approximate): 0
+0051.665 (0) Table pfltrz_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=687) in 0.00 seconds
+0051.671 (0) Table pfltrz_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0051.677 (0) Table pfltrz_wc_tax_rate_classes: Total expected rows (via COUNT): 1
+0051.678 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0051.681 (0) Table pfltrz_wc_tax_rate_classes: Rows added in this batch (next record: 3): 1 (uncompressed bytes in this segment=729) in 0.01 seconds
+0051.687 (0) Table pfltrz_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0051.702 (0) Table pfltrz_woocommerce_order_itemmeta: Total expected rows (via COUNT): 99
+0051.703 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0051.708 (0) Table pfltrz_woocommerce_order_itemmeta: Rows added in this batch (next record: 740): 99 (uncompressed bytes in this segment=6350) in 0.01 seconds
+0051.716 (0) Table pfltrz_woocommerce_order_itemmeta: finishing file(s) (2, 1.5 KB)
+0051.725 (0) Table pfltrz_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0051.729 (0) Table pfltrz_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=773) in 0.01 seconds
+0051.737 (0) Table pfltrz_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0051.743 (0) Table pfltrz_e_events: Total expected rows (via COUNT): 0
+0051.747 (0) Table pfltrz_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=535) in 0.01 seconds
+0051.753 (0) Table pfltrz_e_events: finishing file(s) (2, 0.4 KB)
+0051.760 (0) Table pfltrz_e_submissions: Total expected rows (via COUNT): 0
+0051.761 (0) Table pfltrz_e_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2003) in 0.00 seconds
+0051.767 (0) Table pfltrz_e_submissions: finishing file(s) (2, 0.7 KB)
+0051.772 (0) Table pfltrz_e_submissions_actions_log: Total expected rows (via COUNT): 0
+0051.774 (0) Table pfltrz_e_submissions_actions_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1164) in 0.00 seconds
+0051.779 (0) Table pfltrz_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+0051.786 (0) Table pfltrz_e_submissions_values: Total expected rows (via COUNT): 0
+0051.788 (0) Table pfltrz_e_submissions_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=697) in 0.00 seconds
+0051.794 (0) Table pfltrz_e_submissions_values: finishing file(s) (2, 0.4 KB)
+0051.800 (0) Table pfltrz_gla_attribute_mapping_rules: Total expected rows (via COUNT): 0
+0051.802 (0) Table pfltrz_gla_attribute_mapping_rules: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=684) in 0.00 seconds
+0051.807 (0) Table pfltrz_gla_attribute_mapping_rules: finishing file(s) (2, 0.4 KB)
+0051.812 (0) Table pfltrz_gla_budget_recommendations: Total expected rows (approximate): 4230
+0051.849 (0) Table pfltrz_gla_budget_recommendations: Rows added in this batch (next record: 4230): 4230 (uncompressed bytes in this segment=113877) in 0.04 seconds
+0051.855 (0) Table pfltrz_gla_budget_recommendations: finishing file(s) (2, 23.9 KB)
+0051.861 (0) Table pfltrz_gla_merchant_issues: Total expected rows (via COUNT): 0
+0051.862 (0) Table pfltrz_gla_merchant_issues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=906) in 0.00 seconds
+0051.866 (0) Table pfltrz_gla_merchant_issues: finishing file(s) (2, 0.4 KB)
+0051.871 (0) Table pfltrz_gla_shipping_rates: Total expected rows (via COUNT): 0
+0051.873 (0) Table pfltrz_gla_shipping_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=671) in 0.00 seconds
+0051.877 (0) Table pfltrz_gla_shipping_rates: finishing file(s) (2, 0.4 KB)
+0051.882 (0) Table pfltrz_gla_shipping_times: Total expected rows (via COUNT): 0
+0051.884 (0) Table pfltrz_gla_shipping_times: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=579) in 0.00 seconds
+0051.889 (0) Table pfltrz_gla_shipping_times: finishing file(s) (2, 0.3 KB)
+0051.897 (0) Table pfltrz_wc_admin_note_actions: Total expected rows (via COUNT): 90
+0051.898 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0051.904 (0) Table pfltrz_wc_admin_note_actions: Rows added in this batch (next record: 4840): 90 (uncompressed bytes in this segment=17968) in 0.01 seconds
+0051.912 (0) Table pfltrz_wc_admin_note_actions: finishing file(s) (2, 3.1 KB)
+0051.920 (0) Table pfltrz_wc_admin_notes: Total expected rows (via COUNT): 63
+0051.922 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0051.931 (0) Table pfltrz_wc_admin_notes: Rows added in this batch (next record: 63): 63 (uncompressed bytes in this segment=30635) in 0.01 seconds
+0051.940 (0) Table pfltrz_wc_admin_notes: finishing file(s) (2, 6.9 KB)
+0051.947 (0) Table pfltrz_wc_customer_lookup: Total expected rows (via COUNT): 5
+0051.948 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0051.952 (0) Table pfltrz_wc_customer_lookup: Rows added in this batch (next record: 10): 5 (uncompressed bytes in this segment=1769) in 0.01 seconds
+0051.958 (0) Table pfltrz_wc_customer_lookup: finishing file(s) (2, 0.7 KB)
+0051.964 (0) Table pfltrz_wc_download_log: Total expected rows (via COUNT): 0
+0051.967 (0) Table pfltrz_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=740) in 0.00 seconds
+0051.973 (0) Table pfltrz_wc_download_log: finishing file(s) (2, 0.4 KB)
+0051.981 (0) Table pfltrz_wc_order_addresses: Total expected rows (via COUNT): 6
+0051.983 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0051.989 (0) Table pfltrz_wc_order_addresses: Rows added in this batch (next record: 16): 6 (uncompressed bytes in this segment=1948) in 0.01 seconds
+0051.996 (0) Table pfltrz_wc_order_addresses: finishing file(s) (2, 0.7 KB)
+0052.004 (0) Table pfltrz_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0052.008 (0) Table pfltrz_wc_order_coupon_lookup: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=834) in 0.01 seconds
+0052.014 (0) Table pfltrz_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0052.024 (0) Table pfltrz_wc_order_operational_data: Total expected rows (via COUNT): 4
+0052.026 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0052.034 (0) Table pfltrz_wc_order_operational_data: Rows added in this batch (next record: 14): 4 (uncompressed bytes in this segment=2224) in 0.01 seconds
+0052.041 (0) Table pfltrz_wc_order_operational_data: finishing file(s) (2, 0.8 KB)
+0052.052 (0) Table pfltrz_wc_order_product_lookup: Total expected rows (via COUNT): 7
+0052.053 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0052.057 (0) Table pfltrz_wc_order_product_lookup: Rows added in this batch (next record: 104): 7 (uncompressed bytes in this segment=1909) in 0.01 seconds
+0052.063 (0) Table pfltrz_wc_order_product_lookup: finishing file(s) (2, 0.6 KB)
+0052.070 (0) Table pfltrz_wc_order_stats: Total expected rows (via COUNT): 4
+0052.071 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0052.074 (0) Table pfltrz_wc_order_stats: Rows added in this batch (next record: 1378): 4 (uncompressed bytes in this segment=1751) in 0.01 seconds
+0052.080 (0) Table pfltrz_wc_order_stats: finishing file(s) (2, 0.6 KB)
+0052.086 (0) Table pfltrz_wc_order_tax_lookup: Total expected rows (approximate): 0
+0052.090 (0) Table pfltrz_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=817) in 0.01 seconds
+0052.097 (0) Table pfltrz_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0052.104 (0) Table pfltrz_wc_orders: Total expected rows (via COUNT): 4
+0052.106 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0052.110 (0) Table pfltrz_wc_orders: Rows added in this batch (next record: 1378): 4 (uncompressed bytes in this segment=2932) in 0.01 seconds
+0052.117 (0) Table pfltrz_wc_orders: finishing file(s) (2, 0.9 KB)
+0052.123 (0) Table pfltrz_wc_orders_meta: Total expected rows (via COUNT): 53
+0052.124 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0052.128 (0) Table pfltrz_wc_orders_meta: Rows added in this batch (next record: 89): 53 (uncompressed bytes in this segment=4775) in 0.01 seconds
+0052.134 (0) Table pfltrz_wc_orders_meta: finishing file(s) (2, 1.2 KB)
+0052.139 (0) Table pfltrz_wc_product_attributes_lookup: Total expected rows (approximate): 12
+0052.142 (0) Table pfltrz_wc_product_attributes_lookup: Rows added in this batch (next record: 1000): 12 (uncompressed bytes in this segment=1567) in 0.00 seconds
+0052.146 (0) Table pfltrz_wc_product_attributes_lookup: finishing file(s) (2, 0.5 KB)
+0052.151 (0) Table pfltrz_wc_product_download_directories: Total expected rows (via COUNT): 2
+0052.153 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0052.155 (0) Table pfltrz_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=955) in 0.00 seconds
+0052.169 (0) Table pfltrz_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0052.175 (0) Table pfltrz_wc_rate_limits: Total expected rows (via COUNT): 0
+0052.179 (0) Table pfltrz_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=691) in 0.01 seconds
+0052.185 (0) Table pfltrz_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0052.194 (0) Table pfltrz_wc_webhooks: Total expected rows (via COUNT): 0
+0052.196 (0) Table pfltrz_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1095) in 0.00 seconds
+0052.204 (0) Table pfltrz_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0052.211 (0) Table pfltrz_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0052.212 (0) Table pfltrz_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=897) in 0.00 seconds
+0052.218 (0) Table pfltrz_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+0052.224 (0) Table pfltrz_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 2
+0052.225 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0052.227 (0) Table pfltrz_woocommerce_attribute_taxonomies: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1084) in 0.00 seconds
+0052.230 (0) Table pfltrz_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.5 KB)
+0052.234 (0) Table pfltrz_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0052.235 (0) Table pfltrz_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1434) in 0.00 seconds
+0052.238 (0) Table pfltrz_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0052.243 (0) Table pfltrz_woocommerce_log: Total expected rows (via COUNT): 0
+0052.244 (0) Table pfltrz_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=666) in 0.00 seconds
+0052.247 (0) Table pfltrz_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0052.250 (0) Table pfltrz_woocommerce_order_items: Total expected rows (via COUNT): 10
+0052.251 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0052.253 (0) Table pfltrz_woocommerce_order_items: Rows added in this batch (next record: 105): 10 (uncompressed bytes in this segment=1285) in 0.00 seconds
+0052.257 (0) Table pfltrz_woocommerce_order_items: finishing file(s) (2, 0.6 KB)
+0052.260 (0) Table pfltrz_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0052.262 (0) Table pfltrz_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=768) in 0.00 seconds
+0052.266 (0) Table pfltrz_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0052.272 (0) Table pfltrz_woocommerce_sessions: Total expected rows (via COUNT): 17
+0052.273 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0052.277 (0) Table pfltrz_woocommerce_sessions: Rows added in this batch (next record: 608): 17 (uncompressed bytes in this segment=32196) in 0.01 seconds
+0052.284 (0) Table pfltrz_woocommerce_sessions: finishing file(s) (2, 2.9 KB)
+0052.288 (0) Table pfltrz_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 1
+0052.289 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0052.310 (0) Table pfltrz_woocommerce_shipping_zone_locations: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=935) in 0.02 seconds
+0052.318 (0) Table pfltrz_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0052.326 (0) Table pfltrz_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 1
+0052.327 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0052.330 (0) Table pfltrz_woocommerce_shipping_zone_methods: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=877) in 0.01 seconds
+0052.336 (0) Table pfltrz_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0052.342 (0) Table pfltrz_woocommerce_shipping_zones: Total expected rows (via COUNT): 1
+0052.343 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0052.345 (0) Table pfltrz_woocommerce_shipping_zones: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=724) in 0.00 seconds
+0052.350 (0) Table pfltrz_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0052.355 (0) Table pfltrz_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 4
+0052.356 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0052.359 (0) Table pfltrz_woocommerce_tax_rate_locations: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1002) in 0.01 seconds
+0052.365 (0) Table pfltrz_woocommerce_tax_rate_locations: finishing file(s) (2, 0.5 KB)
+0052.370 (0) Table pfltrz_woocommerce_tax_rates: Total expected rows (via COUNT): 2
+0052.371 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0052.373 (0) Table pfltrz_woocommerce_tax_rates: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1340) in 0.00 seconds
+0052.379 (0) Table pfltrz_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0052.386 (0) Table pfltrz_wpfm_backup: Total expected rows (via COUNT): 0
+0052.389 (0) Table pfltrz_wpfm_backup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=502) in 0.00 seconds
+0052.394 (0) Table pfltrz_wpfm_backup: finishing file(s) (2, 0.3 KB)
+0052.405 (0) Table pfltrz_yith_ywpar_points_log: Total expected rows (via COUNT): 5
+0052.407 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0052.410 (0) Table pfltrz_yith_ywpar_points_log: Rows added in this batch (next record: 10): 5 (uncompressed bytes in this segment=1674) in 0.01 seconds
+0052.418 (0) Table pfltrz_yith_ywpar_points_log: finishing file(s) (2, 0.6 KB)
+0052.419 (0) PHP event: code E_WARNING: filemtime(): stat failed for /data/8/f/8f244847-2be5-4460-9d79-f3804a13c8ad/f020.hu/web/washtag/wp-content/updraft/backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db.gz (line 1925, wp-content/plugins/updraftplus/backup.php)
+0052.422 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_options.table.tmpr12394.gz (1/63/fopen): adding to final database dump
+0052.451 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_options.table.gz (2/63/fopen): adding to final database dump
+0052.452 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_users.table.tmpr9.gz (3/63/fopen): adding to final database dump
+0052.452 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_users.table.gz (4/63/fopen): adding to final database dump
+0052.453 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_usermeta.table.tmpr399.gz (5/63/fopen): adding to final database dump
+0052.454 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_usermeta.table.gz (6/63/fopen): adding to final database dump
+0052.454 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_actionscheduler_actions.table.tmpr395.gz (7/63/fopen): adding to final database dump
+0052.455 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_actionscheduler_actions.table.gz (8/63/fopen): adding to final database dump
+0052.456 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_actionscheduler_claims.table.tmpr0.gz (9/63/fopen): adding to final database dump
+0052.456 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_actionscheduler_claims.table.gz (10/63/fopen): adding to final database dump
+0052.457 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_actionscheduler_groups.table.tmpr8.gz (11/63/fopen): adding to final database dump
+0052.457 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_actionscheduler_groups.table.gz (12/63/fopen): adding to final database dump
+0052.458 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_actionscheduler_logs.table.tmpr1152.gz (13/63/fopen): adding to final database dump
+0052.459 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_actionscheduler_logs.table.gz (14/63/fopen): adding to final database dump
+0052.459 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_commentmeta.table.tmpr0.gz (15/63/fopen): adding to final database dump
+0052.460 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_commentmeta.table.gz (16/63/fopen): adding to final database dump
+0052.460 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_comments.table.tmpr11.gz (17/63/fopen): adding to final database dump
+0052.461 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_comments.table.gz (18/63/fopen): adding to final database dump
+0052.461 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_e_notes.table.tmpr0.gz (19/63/fopen): adding to final database dump
+0052.462 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_e_notes.table.gz (20/63/fopen): adding to final database dump
+0052.463 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_e_notes_users_relations.table.tmpr0.gz (21/63/fopen): adding to final database dump
+0052.464 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_e_notes_users_relations.table.gz (22/63/fopen): adding to final database dump
+0052.464 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_links.table.tmpr0.gz (23/63/fopen): adding to final database dump
+0052.465 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_links.table.gz (24/63/fopen): adding to final database dump
+0052.466 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_postmeta.table.gz (25/63/fopen): adding to final database dump
+0052.720 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_posts.table.tmpr2476.gz (26/63/fopen): adding to final database dump
+0053.069 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_posts.table.gz (27/63/fopen): adding to final database dump
+0053.070 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_term_relationships.table.tmpr100001.gz (28/63/fopen): adding to final database dump
+0053.070 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_term_relationships.table.gz (29/63/fopen): adding to final database dump
+0053.071 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_term_taxonomy.table.tmpr52.gz (30/63/fopen): adding to final database dump
+0053.072 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_term_taxonomy.table.gz (31/63/fopen): adding to final database dump
+0053.072 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_termmeta.table.tmpr34.gz (32/63/fopen): adding to final database dump
+0053.073 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_termmeta.table.gz (33/63/fopen): adding to final database dump
+0053.073 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_terms.table.tmpr52.gz (34/63/fopen): adding to final database dump
+0053.074 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_terms.table.gz (35/63/fopen): adding to final database dump
+0053.074 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_category_lookup.table.tmpr1001.gz (36/63/fopen): adding to final database dump
+0053.074 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_category_lookup.table.gz (37/63/fopen): adding to final database dump
+0053.075 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_product_meta_lookup.table.tmpr2273.gz (38/63/fopen): adding to final database dump
+0053.076 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_product_meta_lookup.table.gz (39/63/fopen): adding to final database dump
+0053.076 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_reserved_stock.table.tmpr1.gz (40/63/fopen): adding to final database dump
+0053.076 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_reserved_stock.table.gz (41/63/fopen): adding to final database dump
+0053.077 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_tax_rate_classes.table.tmpr4.gz (42/63/fopen): adding to final database dump
+0053.077 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_tax_rate_classes.table.gz (43/63/fopen): adding to final database dump
+0053.078 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_woocommerce_order_itemmeta.table.tmpr741.gz (44/63/fopen): adding to final database dump
+0053.078 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_woocommerce_order_itemmeta.table.gz (45/63/fopen): adding to final database dump
+0053.078 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_woocommerce_payment_tokenmeta.table.tmpr0.gz (46/63/fopen): adding to final database dump
+0053.079 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_woocommerce_payment_tokenmeta.table.gz (47/63/fopen): adding to final database dump
+0053.079 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_e_events.table.tmpr0.gz (48/63/fopen): adding to final database dump
+0053.080 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_e_events.table.gz (49/63/fopen): adding to final database dump
+0053.081 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_e_submissions.table.tmpr0.gz (50/63/fopen): adding to final database dump
+0053.081 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_e_submissions.table.gz (51/63/fopen): adding to final database dump
+0053.082 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_e_submissions_actions_log.table.tmpr0.gz (52/63/fopen): adding to final database dump
+0053.083 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_e_submissions_actions_log.table.gz (53/63/fopen): adding to final database dump
+0053.083 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_e_submissions_values.table.tmpr0.gz (54/63/fopen): adding to final database dump
+0053.084 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_e_submissions_values.table.gz (55/63/fopen): adding to final database dump
+0053.084 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_gla_attribute_mapping_rules.table.tmpr0.gz (56/63/fopen): adding to final database dump
+0053.084 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_gla_attribute_mapping_rules.table.gz (57/63/fopen): adding to final database dump
+0053.085 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_gla_budget_recommendations.table.tmpr4231.gz (58/63/fopen): adding to final database dump
+0053.086 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_gla_budget_recommendations.table.gz (59/63/fopen): adding to final database dump
+0053.087 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_gla_merchant_issues.table.tmpr0.gz (60/63/fopen): adding to final database dump
+0053.087 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_gla_merchant_issues.table.gz (61/63/fopen): adding to final database dump
+0053.087 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_gla_shipping_rates.table.tmpr0.gz (62/63/fopen): adding to final database dump
+0053.088 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_gla_shipping_rates.table.gz (63/63/fopen): adding to final database dump
+0053.088 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_gla_shipping_times.table.tmpr0.gz (64/63/fopen): adding to final database dump
+0053.089 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_gla_shipping_times.table.gz (65/63/fopen): adding to final database dump
+0053.089 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_admin_note_actions.table.tmpr4841.gz (66/63/fopen): adding to final database dump
+0053.090 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_admin_note_actions.table.gz (67/63/fopen): adding to final database dump
+0053.090 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_admin_notes.table.tmpr64.gz (68/63/fopen): adding to final database dump
+0053.091 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_admin_notes.table.gz (69/63/fopen): adding to final database dump
+0053.091 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_customer_lookup.table.tmpr11.gz (70/63/fopen): adding to final database dump
+0053.092 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_customer_lookup.table.gz (71/63/fopen): adding to final database dump
+0053.092 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_download_log.table.tmpr0.gz (72/63/fopen): adding to final database dump
+0053.093 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_download_log.table.gz (73/63/fopen): adding to final database dump
+0053.093 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_order_addresses.table.tmpr17.gz (74/63/fopen): adding to final database dump
+0053.094 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_order_addresses.table.gz (75/63/fopen): adding to final database dump
+0053.094 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_order_coupon_lookup.table.tmpr1001.gz (76/63/fopen): adding to final database dump
+0053.094 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_order_coupon_lookup.table.gz (77/63/fopen): adding to final database dump
+0053.095 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_order_operational_data.table.tmpr15.gz (78/63/fopen): adding to final database dump
+0053.095 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_order_operational_data.table.gz (79/63/fopen): adding to final database dump
+0053.096 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_order_product_lookup.table.tmpr105.gz (80/63/fopen): adding to final database dump
+0053.096 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_order_product_lookup.table.gz (81/63/fopen): adding to final database dump
+0053.097 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_order_stats.table.tmpr1379.gz (82/63/fopen): adding to final database dump
+0053.097 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_order_stats.table.gz (83/63/fopen): adding to final database dump
+0053.098 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_order_tax_lookup.table.tmpr1.gz (84/63/fopen): adding to final database dump
+0053.098 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_order_tax_lookup.table.gz (85/63/fopen): adding to final database dump
+0053.098 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_orders.table.tmpr1379.gz (86/63/fopen): adding to final database dump
+0053.099 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_orders.table.gz (87/63/fopen): adding to final database dump
+0053.099 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_orders_meta.table.tmpr90.gz (88/63/fopen): adding to final database dump
+0053.100 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_orders_meta.table.gz (89/63/fopen): adding to final database dump
+0053.100 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_product_attributes_lookup.table.tmpr1001.gz (90/63/fopen): adding to final database dump
+0053.101 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_product_attributes_lookup.table.gz (91/63/fopen): adding to final database dump
+0053.102 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_product_download_directories.table.tmpr3.gz (92/63/fopen): adding to final database dump
+0053.103 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_product_download_directories.table.gz (93/63/fopen): adding to final database dump
+0053.106 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_rate_limits.table.tmpr0.gz (94/63/fopen): adding to final database dump
+0053.107 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_rate_limits.table.gz (95/63/fopen): adding to final database dump
+0053.107 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_webhooks.table.tmpr0.gz (96/63/fopen): adding to final database dump
+0053.108 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wc_webhooks.table.gz (97/63/fopen): adding to final database dump
+0053.109 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_woocommerce_api_keys.table.tmpr0.gz (98/63/fopen): adding to final database dump
+0053.109 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_woocommerce_api_keys.table.gz (99/63/fopen): adding to final database dump
+0053.111 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_woocommerce_attribute_taxonomies.table.tmpr3.gz (100/63/fopen): adding to final database dump
+0053.111 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_woocommerce_attribute_taxonomies.table.gz (101/63/fopen): adding to final database dump
+0053.112 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_woocommerce_downloadable_product_permissions.table.tmpr0.gz (102/63/fopen): adding to final database dump
+0053.112 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_woocommerce_downloadable_product_permissions.table.gz (103/63/fopen): adding to final database dump
+0053.113 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_woocommerce_log.table.tmpr0.gz (104/63/fopen): adding to final database dump
+0053.113 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_woocommerce_log.table.gz (105/63/fopen): adding to final database dump
+0053.114 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_woocommerce_order_items.table.tmpr106.gz (106/63/fopen): adding to final database dump
+0053.117 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_woocommerce_order_items.table.gz (107/63/fopen): adding to final database dump
+0053.118 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_woocommerce_payment_tokens.table.tmpr0.gz (108/63/fopen): adding to final database dump
+0053.118 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_woocommerce_payment_tokens.table.gz (109/63/fopen): adding to final database dump
+0053.119 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_woocommerce_sessions.table.tmpr609.gz (110/63/fopen): adding to final database dump
+0053.120 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_woocommerce_sessions.table.gz (111/63/fopen): adding to final database dump
+0053.122 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_woocommerce_shipping_zone_locations.table.tmpr2.gz (112/63/fopen): adding to final database dump
+0053.123 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_woocommerce_shipping_zone_locations.table.gz (113/63/fopen): adding to final database dump
+0053.126 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_woocommerce_shipping_zone_methods.table.tmpr2.gz (114/63/fopen): adding to final database dump
+0053.132 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_woocommerce_shipping_zone_methods.table.gz (115/63/fopen): adding to final database dump
+0053.133 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_woocommerce_shipping_zones.table.tmpr2.gz (116/63/fopen): adding to final database dump
+0053.134 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_woocommerce_shipping_zones.table.gz (117/63/fopen): adding to final database dump
+0053.136 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_woocommerce_tax_rate_locations.table.tmpr5.gz (118/63/fopen): adding to final database dump
+0053.137 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_woocommerce_tax_rate_locations.table.gz (119/63/fopen): adding to final database dump
+0053.138 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_woocommerce_tax_rates.table.tmpr3.gz (120/63/fopen): adding to final database dump
+0053.139 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_woocommerce_tax_rates.table.gz (121/63/fopen): adding to final database dump
+0053.140 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wpfm_backup.table.tmpr0.gz (122/63/fopen): adding to final database dump
+0053.141 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_wpfm_backup.table.gz (123/63/fopen): adding to final database dump
+0053.141 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_yith_ywpar_points_log.table.tmpr11.gz (124/63/fopen): adding to final database dump
+0053.142 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db-table-pfltrz_yith_ywpar_points_log.table.gz (125/63/fopen): adding to final database dump
+0053.148 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db.gz: finished writing out complete database file (19537.3 KB)
+0053.329 (0) Total database tables backed up: 63 (backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db.gz, size: 20006313, sha1: bd3a24f0f0f8762a21b0607e758adf3c96ff17ab, sha256: 08c588ff4ecc96d5f0061f178d72d096d5d59dda5726ffe5098b5e02dbe2bed9)
+0053.333 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip: plugins: This file has already been successfully uploaded
+0053.334 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-themes.zip: themes: This file has already been successfully uploaded
+0053.334 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-uploads.zip: uploads: This file has already been successfully uploaded
+0053.335 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-mu-plugins.zip: mu-plugins: This file has already been successfully uploaded
+0053.335 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-others.zip: others: This file has already been successfully uploaded
+0053.336 (0) backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db.gz: db: This file has not yet been successfully uploaded: will queue
+0053.336 (0) Saving backup history. Total backup size: 114.8 MB
+0053.338 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0053.340 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0053.340 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-695ed4708aacd4830e84d9c9dea6da66)
+0053.815 (0) Google Drive: quota usage: used=303.8 MB, total=15360 MB, available=15056.2 MB
+0053.817 (0) Google Drive: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db.gz: Attempting to upload to Google Drive (into folder id: 1wexCis5Oq3VroDfx94hbCy197lijsCrd)
+0054.869 (0) Googledrive chunked upload: 5.2 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 74.9 / 176)
+0055.305 (0) Googledrive chunked upload: 15.7 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 75 / 176)
+0055.737 (0) Googledrive chunked upload: 36.7 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 75 / 176)
+0056.249 (0) Googledrive chunked upload: 78.6 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 75 / 176)
+0057.995 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0058.000 (0) Google Drive: OK: Archive backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db.gz uploaded in 4.18 seconds
+0058.002 (0) Recording as successfully uploaded: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db.gz
+0058.005 (0) Deleting local file: backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-db.gz: OK
+0058.008 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0058.010 (0) Number of backup sets in history: 3; groups (db): 1
+0058.011 (0) Examining (for databases) backup set with group_id=0, nonce=c3e41b97d2cf, datestamp=1727873318 (Oct 02 2024 12:48:38)
+0058.012 (0) This backup set is the backup set just made, so will not be deleted.
+0058.012 (0) Examining (for databases) backup set with group_id=0, nonce=09e226124542, datestamp=1727196821 (Sep 24 2024 16:53:41)
+0058.012 (0) This backup set (1727196821) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0058.012 (0) Examining (for databases) backup set with group_id=0, nonce=55a804d5d097, datestamp=1727086495 (Sep 23 2024 10:14:55)
+0058.012 (0) This backup set (1727086495) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0058.012 (0) Number of backup sets in history: 3; groups (files): 1
+0058.013 (0) Examining (for files) backup set with nonce=c3e41b97d2cf, datestamp=1727873318 (Oct 02 2024 12:48:38)
+0058.014 (0) This backup set is the backup set just made, so will not be deleted.
+0058.014 (0) This backup set is the backup set just made, so will not be deleted.
+0058.014 (0) This backup set is the backup set just made, so will not be deleted.
+0058.015 (0) This backup set is the backup set just made, so will not be deleted.
+0058.015 (0) This backup set is the backup set just made, so will not be deleted.
+0058.015 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0058.016 (0) Examining (for files) backup set with nonce=09e226124542, datestamp=1727196821 (Sep 24 2024 16:53:41)
+0058.016 (0) This backup set (1727196821) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0058.016 (0) This backup set (1727196821) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0058.016 (0) This backup set (1727196821) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0058.016 (0) This backup set (1727196821) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0058.016 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0058.016 (0) Examining (for files) backup set with nonce=55a804d5d097, datestamp=1727086495 (Sep 23 2024 10:14:55)
+0058.016 (0) This backup set (1727086495) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0058.016 (0) This backup set (1727086495) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0058.016 (0) This backup set (1727086495) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0058.017 (0) This backup set (1727086495) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0058.017 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0058.017 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0058.020 (0) Resume backup (c3e41b97d2cf, 0): finish run
+0058.022 (0) Decremented the semaphore (fd) by 1
+0058.023 (0) Semaphore (fd) unlocked
+0058.025 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0058.030 (0) Deleting zip manifest (backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-plugins.zip.list.tmp)
+0058.031 (0) Deleting zip manifest (backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-themes.zip.list.tmp)
+0058.033 (0) Deleting zip manifest (backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-uploads.zip.list.tmp)
+0058.034 (0) Deleting zip manifest (backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-mu-plugins.zip.list.tmp)
+0058.035 (0) Deleting zip manifest (backup_2024-10-02-1448_Washtag_Premium_Car_Spa_Debr_c3e41b97d2cf-others.zip.list.tmp)
+0058.036 (0) No email will/can be sent - the user has not configured an email address.
+0058.038 (0) The backup succeeded and is now complete
